@@ -14,5 +14,10 @@ function increaseRankBy(n){
 }
 
 function deepestChild(){
-  var lis.
+  var lis = document.getElementById("grad-node").querySelectorAll("div");
+  var test;
+  for(let i = 0; i < lis.length; i++){
+    test = lis[i].querySelectorAll("div");
+  }
+  return test
 }
